@@ -1,0 +1,72 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.page {
+  background-color: #f5f5f5;
+}
+
+.action-bar {
+  background-color: #1e40af;
+  color: white;
+}
+
+.input {
+  margin: 8 0;
+  padding: 12;
+  background-color: white;
+  border-width: 1;
+  border-color: #e5e7eb;
+  border-radius: 8;
+}
+
+.btn {
+  margin: 8 0;
+  padding: 12;
+  border-radius: 8;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1e40af;
+  color: white;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.label {
+  margin-bottom: 4;
+  color: #374151;
+}
+
+.title {
+  font-size: 24;
+  font-weight: bold;
+  margin: 16 0;
+  color: #111827;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12;
+  margin: 8 0; /* Adjusted for vertical spacing */
+  padding: 16;
+  elevation: 2;
+  width: 100%; /* Full width cards */
+}
+
+/* Menu layout styles */
+.menu-grid {
+  padding: 16;
+}
+
+.menu-card {
+  background-color: white;
+  border-radius: 12;
+  margin: 8 0; /* Vertical spacing between cards */
+  padding: 16;
+  elevation: 2;
+  width: 100%; /* Full width cards */
+}
